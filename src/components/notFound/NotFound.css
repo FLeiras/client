@@ -1,0 +1,52 @@
+.notFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 75vw;
+  height: 55vh;
+  font-size: 40px;
+}
+
+.notFound h1 {
+  color: white;
+}
+
+.notFound h3 {
+  color: white;
+}
+
+.gif img {
+  height: 200px;
+  width: 200px;
+}
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 768px) {
+  .notFound {
+    height: 50vh;
+    font-size: 35px;
+    margin-bottom: -110px;
+  }
+}
+
+@media (max-width: 375px) {
+  .notFound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 75vw;
+    height: 32vh;
+    font-size: 20px;
+  }
+
+  .gif img {
+    height: 100px;
+    width: 100px;
+  }
+}

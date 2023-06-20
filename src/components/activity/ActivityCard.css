@@ -1,0 +1,38 @@
+.activity_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: cadetblue;
+  width: 300px;
+  height: 180px;
+  border-radius: 20px;
+  border: 2px solid var(--color-pri);
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.btnDel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 130px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .activity_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: cadetblue;
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    border: 2px solid var(--color-pri);
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,73 @@
+.containerCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #f5f5f5af;
+  border-radius: 20px;
+  position: relative;
+  text-align: center;
+  margin: 10px;
+  width: 320px;
+  height: 400px;
+}
+
+.containerCard:hover {
+  transform: translateY(-2.5%);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
+}
+
+.cardImg {
+  box-sizing: border-box;
+  height: 200px;
+  display: flex;
+  position: relative;
+  background: center;
+  background-position: center center;
+  background-size: cover;
+  margin: 0;
+}
+
+.cardImg img {
+  border-radius: 20px 20px 0 0;
+}
+
+.dates_cards {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dates_cards h1 {
+  color: black;
+  font-size: 18px;
+  margin: -200px 0 6px 0;
+}
+
+.dates_cards h3 {
+  color: black;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.detail-link {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-pri-light);
+  border: 2px solid var(--color-pri);
+  border-radius: 10px;
+}
+
+.btnDetail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100px;
+  height: 25px;
+}

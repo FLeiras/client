@@ -1,0 +1,61 @@
+.footer-container {
+  background: none;
+}
+
+.footer-container h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.footer-container h2 {
+  font-family: "Open Sans";
+  font-weight: 100;
+  font-size: 26px;
+  margin-top: 2rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+}
+
+.footer-container h2:hover {
+  background-color: rgba(0, 0, 0, 0.062);
+}
+
+.social-links {
+  margin: 1rem 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links .social {
+  height: 4.5rem;
+  width: 4.5rem;
+  background-color: var(--color-ter);
+  margin: 1rem 5px;
+  padding: 10px;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.social-links .social:hover {
+  background: rgba(255, 255, 255, 0.363);
+  fill: var(--color-pri);
+}
+
+.icon-footer {
+  fill: rgb(209, 217, 252);
+  margin: 0.5rem 0 0 0;
+}

@@ -1,0 +1,41 @@
+.pagdiv {
+  font-family: "Ubuntu";
+  font-size: 1.3rem;
+  color: var(--color-ter);
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0.5rem 0 0 0;
+}
+
+.pagprevbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  margin: 5px;
+}
+
+.paginput {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 2rem;
+  height: 1.4rem;
+  margin: 0 1rem 0 0.3rem;
+  border: 2px solid var(--color-ter);
+  border-radius: 0.2rem;
+  background: var(--color-ter);
+  font-family: "Ubuntu";
+  font-size: 18px;
+}
+
+.pagnextbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  margin: 5px;
+}

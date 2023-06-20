@@ -1,0 +1,511 @@
+.form_container {
+  background: url(../../props/form.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu";
+}
+
+.blur {
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(16px);
+}
+
+.form-containertwo {
+  position: absolute;
+  background: url(../../props/form.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 75%;
+  height: 75%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form_home {
+  width: 95%;
+}
+
+.icon-form {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.form_title {
+  position: absolute;
+  display: flex;
+  margin-top: -600px;
+}
+
+.forms {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
+}
+
+.form_name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  font-size: 25px;
+}
+
+.form_name input {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.name_error {
+  font-size: 20px;
+}
+
+.form_difficult {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  margin: 10px;
+}
+
+.dif {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.form_difficult input {
+  text-align: center;
+  border-radius: 10px;
+}
+
+.difficult_error {
+  font-size: 20px;
+  display: flex;
+  margin: 0;
+}
+
+.form_duration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.form_duration input {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.duration_error {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.temp {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.form_season {
+  background-color: rgba(240, 248, 255, 0.5);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 650px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.form_season input {
+  text-align: center;
+  border-radius: 10px;
+}
+
+.season_error {
+  background-color: rgba(240, 248, 255, 0.5);
+  border-radius: 10px;
+  font-size: 20px;
+  display: flex;
+  margin: 0;
+}
+
+.form_country select {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.cou {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.form_createbtn {
+  background-color: var(--color-pri-light);
+  border: 2px solid var(--color-pri);
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 30px;
+  width: 200px;
+  height: 30px;
+}
+
+.selecto-container .country_selecto {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.country_selecto {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(240, 248, 255, 0.5);
+  text-align: center;
+  border-radius: 5px;
+  margin-top: -85px;
+  margin-left: 300px;
+  width: 300px;
+}
+
+.country_selecto p {
+  color: black;
+}
+
+.element_selecto {
+  margin-right: 2rem;
+}
+
+.button_selection {
+  border-radius: 5px;
+  background-color: var(--color-pri-light);
+  border: 2px solid var(--color-pri);
+  width: 50px;
+  margin-right: 2rem;
+}
+
+@media (max-width: 1280px) {
+  .selecto-container .country_selecto {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .icon-form {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+  }
+
+  .form_title {
+    position: absolute;
+    display: flex;
+    margin-top: -310px;
+  }
+
+  .country_selecto {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(240, 248, 255, 0.5);
+    text-align: center;
+    border-radius: 5px;
+    margin-top: -85px;
+    margin-left: 250px;
+    width: 200px;
+  }
+
+  .country_selecto p {
+    color: black;
+  }
+}
+
+@media (max-width: 768px) {
+  .form-containertwo {
+    position: absolute;
+    background: url(../../props/form.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 95%;
+    height: 75%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .form_title {
+    position: absolute;
+    display: flex;
+    margin-top: -330px;
+  }
+
+  .icon-form {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+  }
+
+  .country_selecto {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(240, 248, 255, 0.5);
+    text-align: center;
+    border-radius: 5px;
+    margin-top: -60px;
+    margin-left: 180px;
+    width: 150px;
+  }
+
+  .country_selecto p {
+    color: black;
+  }
+
+  .element_selecto {
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 412px) {
+  .form-containertwo {
+    position: absolute;
+    background: url(../../props/form.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 95%;
+    height: 95%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .form_title {
+    position: absolute;
+    display: flex;
+    margin-top: -300px;
+  }
+
+  .form_season {
+    background-color: rgba(240, 248, 255, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 330px;
+    margin: 5px;
+    font-size: 15px;
+  }
+
+  .form_season input {
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .country_selecto {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    text-align: center;
+    width: 25vw;
+    background-color: rgba(240, 248, 255, 0.5);
+    border-radius: 0.2rem;
+    margin: 0.7rem 0 0 -3rem;
+    padding: 0.2rem 0.2rem 0.2rem 0;
+  }
+
+  .country_selecto p {
+    color: black;
+  }
+
+  .form_createbtn {
+    position: absolute;
+    background-color: var(--color-pri-light);
+    border: 2px solid var(--color-pri);
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: -100px;
+    margin-top: 60px;
+    width: 200px;
+    height: 30px;
+  }
+  .temp {
+    margin-top: -20px;
+    font-size: 25px;
+  }
+
+  .forms {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -300px;
+  }
+
+  .duration_error {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .icon-form {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: -150px;
+  }
+
+  .cou {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+
+  .element_selecto {
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .form-containertwo {
+    position: absolute;
+    background: url(../../props/form.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 95%;
+    height: 95%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .form_title {
+    position: absolute;
+    display: flex;
+    margin-top: -300px;
+  }
+
+  .form_season {
+    background-color: rgba(240, 248, 255, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 330px;
+    margin: 5px;
+    font-size: 15px;
+  }
+
+  .form_season input {
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .country_selecto {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(240, 248, 255, 0.5);
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: -4rem;
+    width: 30vw;
+  }
+
+  .country_selecto p {
+    color: black;
+  }
+
+  .form_createbtn {
+    position: absolute;
+    background-color: var(--color-pri-light);
+    border: 2px solid var(--color-pri);
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: -100px;
+    margin-top: 60px;
+    width: 200px;
+    height: 30px;
+  }
+  .temp {
+    margin-top: -20px;
+    font-size: 25px;
+  }
+
+  .forms {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -300px;
+  }
+
+  .duration_error {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .icon-form {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: -150px;
+  }
+
+  .cou {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+
+  .element_selecto {
+    margin-right: 1.8rem;
+  }
+}
