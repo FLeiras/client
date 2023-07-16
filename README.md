@@ -22,4 +22,4 @@ https://github.com/FLeiras/client
 npm start
 ```
 
-¡Listo!
+¡Listo puede visualizar la App!
